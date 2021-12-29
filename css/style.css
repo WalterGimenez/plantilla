@@ -11,6 +11,11 @@ header{
     
 }
 
+h4{
+    position: absolute;
+    margin-top: 12px;
+}
+
 
 h1{
     margin: 0;
@@ -42,7 +47,7 @@ div .face, .insta, .twit{
 .button{
     position: absolute;
     padding: 10px 5px;
-    top: 10px;
+    top: 8px;
     right: 20px;
     color: #009f4d;
     border: 2px solid #009f4d;
