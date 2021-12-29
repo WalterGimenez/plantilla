@@ -2,6 +2,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color:greenyellow;
+    
 }
 
 header{
@@ -13,7 +15,8 @@ header{
 
 h4{
     position: absolute;
-    margin-top: 12px;
+    margin-top: 14px;
+    margin-left: 13px;
 }
 
 
@@ -23,31 +26,34 @@ h1{
     margin-left: 15px;
 }
 
-div .face, .insta, .twit{
-    position: absolute;
+.face, .insta, .twit{
+    position: absolute; 
+    
     height: 40px;
     color: rgb(216, 224, 224);
 }
 
-.face{
+
+
+.face{ 
     top: 10px;
-    right: 200px;
+    right: 220px;
 }
 
 .insta{
     top: 10px;
-    right: 145px;
+    right: 165px;
 }
 
 .twit{
     top: 10px;
-    right: 90px;
+    right: 110px;
 }
 
-.button{
+.btn{
     position: absolute;
-    padding: 10px 5px;
-    top: 8px;
+    padding: 10px 15px;
+    top: 6px;
     right: 20px;
     color: #009f4d;
     border: 2px solid #009f4d;
@@ -68,4 +74,8 @@ div .face, .insta, .twit{
     width: 160px;
     margin-top: -80px;
     margin-left: 50px;
+}
+
+h2{
+    margin-left: 20px;
 }
